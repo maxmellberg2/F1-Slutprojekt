@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="drivercard.css">
+</head>
+<body>
+
+
+    <nav>
+        <ul>
+            <div id="logo">
+                <li><a href="">
+                    <img id='bild' src="logo/Logo.png" alt=""></a></li>
+            </div>
+          <li><a href="calendar.html">Kalender</a></li>
+          <li><a href="drivercard.html">Förare</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Mästerskapen &#9662;</a>
+            <div class="dropdown-content">
+              <a href="standings.html">Förare</a>
+              <a href="Cstandings.html">Stall</a>
+            </div>
+          </li>
+          
+          <li><a href="drivers.html">Lopp</a></li>
+        </ul>
+    </nav>
+
+
+    <h1>F1 Förare</h1>
+    <div id="drivers"></div>
+
+
+    <script>
+fetch('drivers.json')
+  .then(response => response.json())
+  .then(data => {
+    data.forEach(driver => {
+      const raceElem = document.createElement('a'); 
+      raceElem.classList.add('race');
+
+      const flagElem = document.createElement('img');
+      flagElem.src = driver.placeOfBirth.flag;
+      flagElem.alt = `${driver.placeOfBirth.country} flag`;
+      raceElem.appendChild(flagElem);
+
+      const nameElem = document.createElement('p');
+      nameElem.textContent = `Namn: ${driver.name}`;
+      raceElem.appendChild(nameElem);
+
+      const teamElem = document.createElement('p');
+      teamElem.textContent = `Lag: ${driver.team}`;
+      raceElem.appendChild(teamElem);
+
+      const grandsPrixElem = document.createElement('p');
+      grandsPrixElem.textContent = `Grands Prix Deltagit: ${driver.grandsPrixEntered}`;
+      raceElem.appendChild(grandsPrixElem);
+
+      const championshipsElem = document.createElement('p');
+      championshipsElem.textContent = `Mästerskapstitlar: ${driver.worldChampionships}`;
+      raceElem.appendChild(championshipsElem);
+
+      const birthDateElem = document.createElement('p');
+      birthDateElem.textContent = `Födelsedatum: ${driver.dateOfBirth}`;
+      raceElem.appendChild(birthDateElem);
+
+      const pictureElem = document.createElement('img');
+      pictureElem.src = driver.picture;
+      pictureElem.alt = `${driver.name} photo`;
+      raceElem.appendChild(pictureElem);
+
+      document.getElementById('drivers').appendChild(raceElem);
+    });
+  });
+
+    </script>
+</body>
+</html>

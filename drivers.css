@@ -119,4 +119,45 @@ nav ul li a:hover:after {
   .dropdown-content a:hover {
     background-color: #f1f1f1;
   }
+  @media screen and (max-width: 480px) {
+
+    nav{
+      height: 200px;
+    }
+    
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: auto;
+      padding: 0;
+    }
   
+    nav ul li {
+      width: 100%;
+      text-align: center;
+      margin-top: 7px;
+    }
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      z-index: 1;
+      background-color: #fd5c63;
+      top: 100%;
+      left: 0;
+      right: 0;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+    .dropdown-content a {
+      color: #fff;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+  
+  }

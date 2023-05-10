@@ -1,0 +1,270 @@
+
+    [
+      {
+       "id": 1,
+        "name": "Lewis Hamilton",
+        "team": "Mercedes",
+        "country": "Great Britain",
+        "podiums": 176,
+        "points": 4365,
+        "grandsPrixEntered": 280,
+        "worldChampionships": 7,
+        "highestRaceFinish": {
+          "position": 1,
+          "times": 103
+        },
+        "highestGridPosition": 1,
+        "dateOfBirth": "07-01-1985",
+        "placeOfBirth": {
+          "city": "Stevenage",
+          "country": "Great Britain",
+          "flag": "https://flagpedia.net/data/flags/h80/gb.png"
+        },
+        "picture": "logo/lewis.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Max Verstappen",
+        "team": "Red Bull Racing",
+        "country": "Netherlands",
+        "podiums": 56,
+        "points": 1627,
+        "grandsPrixEntered": 122,
+        "worldChampionships": 0,
+        "highestRaceFinish": {
+          "position": 1,
+          "times": 13
+        },
+        "highestGridPosition": 1,
+        "dateOfBirth": "30-09-1997",
+        "placeOfBirth": {
+          "city": "Hasselt",
+          "country": "Belgium",
+          "flag": "https://flagpedia.net/data/flags/h80/be.png"
+        },
+        "picture": "logo/max-verstappen-red-bull-racing-1.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Valtteri Bottas",
+        "team": "Mercedes",
+        "country": "Finland",
+        "podiums": 69,
+        "points": 1537,
+        "grandsPrixEntered": 169,
+        "worldChampionships": 0,
+        "highestRaceFinish": {
+          "position": 1,
+          "times": 10
+        },
+        "highestGridPosition": 1,
+        "dateOfBirth": "28-08-1989",
+        "placeOfBirth": {
+          "city": "Nastola",
+          "country": "Finland",
+          "flag": "https://flagpedia.net/data/flags/h80/fi.png"
+        },
+        "picture": "logo/Bottas.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "country": "Great Britain",
+        "podiums": 4,
+        "points": 287,
+        "grandsPrixEntered": 44,
+        "worldChampionships": 0,
+        "highestRaceFinish": {
+          "position": 1,
+          "times": 0
+        },
+        "highestGridPosition": 1,
+        "dateOfBirth": "13-11-1999",
+        "placeOfBirth": {
+          "city": "Bristol",
+          "country": "Great Britain",
+          "flag": "logo/Uk3.png"
+        },
+        "picture": "logo/Norris.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "country": "Monaco",
+        "podiums": 13,
+        "points": 629,
+        "grandsPrixEntered": 56,
+        "worldChampionships": 0,
+        "highestRaceFinish": {
+        "position": 1,
+        "times": 2
+        },
+        "highestGridPosition": 1,
+        "dateOfBirth": "16-10-1997",
+        "placeOfBirth": {
+        "city": "Monte Carlo",
+        "country": "Monaco",
+        "flag": "https://flagpedia.net/data/flags/h80/mc.png"
+        },
+        "picture": "logo/Leclerc.jpg"
+        },
+        {
+        "id": 6,
+        "name": "Carlos Sainz",
+        "team": "Ferrari",
+        "country": "Spain",
+        "podiums": 3,
+        "points": 506,
+        "grandsPrixEntered": 125,
+        "worldChampionships": 0,
+        "highestRaceFinish": {
+        "position": 1,
+        "times": 0
+        },
+        "highestGridPosition": 3,
+        "dateOfBirth": "01-09-1994",
+        "placeOfBirth": {
+        "city": "Madrid",
+        "country": "Spain",
+        "flag": "https://flagpedia.net/data/flags/h80/es.png"
+        },
+        "picture": "logo/Sainz.jpg"
+        },
+        {
+        "id": 7,
+        "name": "Pierre Gasly",
+        "team": "AlphaTauri",
+        "country": "France",
+        "podiums": 3,
+        "points": 297,
+        "grandsPrixEntered": 84,
+        "worldChampionships": 0,
+        "highestRaceFinish": {
+        "position": 1,
+        "times": 1
+        },
+        "highestGridPosition": 4,
+        "dateOfBirth": "07-02-1996",
+        "placeOfBirth": {
+        "city": "Rouen",
+        "country": "France",
+        "flag": "https://flagpedia.net/data/flags/h80/fr.png"
+        },
+        "picture": "logo/Pierre.jpg"
+        },
+        {
+        "id": 8,
+        "name": "Sergio Perez",
+        "team": "Red Bull Racing",
+        "country": "Mexico",
+        "podiums": 18,
+        "points": 760,
+        "grandsPrixEntered": 205,
+        "worldChampionships": 0,
+        "highestRaceFinish": {
+        "position": 1,
+        "times": 2
+        },
+        "highestGridPosition": 1,
+        "dateOfBirth": "26-01-1990",
+        "placeOfBirth": {
+        "city": "Guadalajara",
+        "country": "Mexico",
+        "flag": "https://flagpedia.net/data/flags/h80/mx.png"
+    },
+    "picture": "logo/Perez.jpg"
+    },
+    {
+    "id": 9,
+    "name": "Yuki Tsunoda",
+    "team": "AlphaTauri",
+    "country": "Japan",
+    "podiums": 0,
+    "points": 32,
+    "grandsPrixEntered": 18,
+    "worldChampionships": 0,
+    "highestRaceFinish": {
+    "position": 7,
+    "times": 1
+    },
+    "highestGridPosition": 6,
+    "dateOfBirth": "11-05-2000",
+    "placeOfBirth": {
+    "city": "Sagamihara",
+    "country": "Japan",
+    "flag": "https://flagpedia.net/data/flags/h80/jp.png"
+    },
+    "picture": "logo/Yuki.jpg"
+    },
+    {
+    "id": 10,
+    "name": "Esteban Ocon",
+    "team": "Alpine",
+    "country": "France",
+    "podiums": 1,
+    "points": 208,
+    "grandsPrixEntered": 82,
+    "worldChampionships": 0,
+    "highestRaceFinish": {
+    "position": 1,
+    "times": 1
+    },
+    "highestGridPosition": 2,
+    "dateOfBirth": "17-09-1996",
+    "placeOfBirth": {
+    "city": "Évreux",
+    "country": "France",
+    "flag": "https://flagpedia.net/data/flags/h80/fr.png"
+    },
+    "picture": "logo/Ocon.jpg"
+    },
+    {
+    "id": 11,
+    "name": "George Russell",
+    "team": "Williams",
+    "country": "United Kingdom",
+    "podiums": 0,
+    "points": 16,
+    "grandsPrixEntered": 44,
+    "worldChampionships": 0,
+    "highestRaceFinish": {
+    "position": 2,
+    "times": 0
+    },
+    "highestGridPosition": 2,
+    "dateOfBirth": "15-02-1998",
+    "placeOfBirth": {
+    "city": "King's Lynn",
+    "country": "United Kingdom",
+    "flag": "https://flagpedia.net/data/flags/h80/gb.png"
+    },
+    "picture": "logo/Russell.jpg"
+    },
+    {
+    "id": 12,
+    "name": "Nicholas Latifi",
+    "team": "Williams",
+    "country": "Canada",
+    "podiums": 0,
+    "points": 9,
+    "grandsPrixEntered": 34,
+    "worldChampionships": 0,
+    "highestRaceFinish": {
+    "position": 7,
+    "times": 0
+    },
+    "highestGridPosition": 11,
+    "dateOfBirth": "29-06-1995",
+    "placeOfBirth": {
+    "city": "Montreal",
+    "country": "Canada",
+    "flag": "https://flagpedia.net/data/flags/h80/ca.png"
+    },
+    "picture": "logo/Latifi.png"
+    }
+    ]
+    
+        
+  
